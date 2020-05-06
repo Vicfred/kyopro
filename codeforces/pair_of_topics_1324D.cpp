@@ -32,10 +32,23 @@ int main() {
     sort(c.begin(), c.end());
 
     long long int ans = 0;
-    for(auto i = c.begin(); i < c.end(); i++) {
-        int match = (*i)*(-1)+1;
-        auto lower = lower_bound(i+1, c.end(), match);
-        ans += distance(lower, c.end());
+    for(auto i = 0; i < n; i++) {
+        int match = c[i]*(-1)+1;
+
+        int left = i+1;
+        int right = n-1;
+
+        while(left <= right) {
+            int middle = (left+right)/2;
+
+            if(c[middle] < match) {
+                left = middle+1;
+            } else {
+                right = middle-1;
+            }
+        }
+
+        ans += n-left;
     }
 
     cout << ans << endl;
