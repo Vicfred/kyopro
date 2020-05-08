@@ -3,5 +3,6 @@
 !*.cpp
 !*.py
 !*.rs
+!*.d
 !LICENSE
 !.gitignore
