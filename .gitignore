@@ -1,5 +1,6 @@
 *
 !codeforces/
 !*.cpp
+!*.py
 !LICENSE
 !.gitignore
