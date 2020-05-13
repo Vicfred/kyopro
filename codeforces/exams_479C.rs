@@ -1,39 +1,44 @@
-// unihernandez22
-// https://codeforces.com/contest/479/problem/C
+// https://codeforces.com/problemset/problem/479/C
 // greedy
-
-use std::io::stdin;
+use std::io;
 
 fn main() {
     let mut n = String::new();
-    stdin().read_line(&mut n).unwrap();
-    let n: i16 = n.trim().parse().unwrap();
 
-    let mut input = Vec::<Vec<i32>>::new();
+    io::stdin()
+        .read_line(&mut n)
+        .unwrap();
+
+    let n: i64 = n.trim().parse().unwrap();
+
+    let mut exams = Vec::<Vec<i64>>::new();
 
     for _ in 0..n {
-        let mut s = String::new();
-        stdin().read_line(&mut s).unwrap();
-        
-        let words: Vec<i32> = s
+        let mut line = String::new();
+
+        io::stdin()
+            .read_line(&mut line)
+            .unwrap();
+
+        let words: Vec<i64> =
+            line
             .split_whitespace()
             .map(|x| x.parse().unwrap())
             .collect();
 
-        input.push(words)
+        exams.push(words);
     }
 
-    input.sort();
+    exams.sort();
 
-    let mut c: i32 = 0;
-
-    for i in input {
-        if i[1] < c {
-            c = i[0];
+    let mut last = -1;
+    for exam in exams {
+        if exam[1] >= last {
+            last = exam[1];
         } else {
-            c = i[1];
+            last = exam[0];
         }
     }
 
-    println!("{}", c)
+    println!("{}", last);
 }
