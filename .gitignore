@@ -1,8 +1,8 @@
-*
 !codeforces/
 !*.cpp
 !*.py
 !*.rs
 !*.d
 !LICENSE
-!.gitignore
+.gitignore
+*
