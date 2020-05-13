@@ -1,42 +1,53 @@
-// unihernandez22
 // https://codeforces.com/problemset/problem/515/C
 // greedy
-
-use std::io::stdin;
+use std::io;
+use std::collections::HashMap;
 
 fn main() {
-    stdin().read_line(&mut String::new());
+    let mut n = String::new();
 
-    let mut a = String::new();
-    stdin().read_line(&mut a).unwrap();
-    let a = a.trim();
+    io::stdin()
+        .read_line(&mut n)
+        .unwrap();
 
-    let a: Vec<char> = a
-        .chars()
-        .filter(|x| x != &'0' && x != &'1')
-        .collect();
+    let _n: i64 = n.trim().parse().unwrap();
 
-    let mut c = String::new();
+    let mut line = String::new();
 
-    for i in a {
-        let b = i.to_string();
-        let b = b.as_str();
-        c.push_str( match i {
-            '4' => "223",
-            '6' => "53",
-            '8' => "7222",
-            '9' => "2337",
-            _ => b
-        });
-    }
+    io::stdin()
+        .read_line(&mut line)
+        .unwrap();
 
-    let mut c: Vec<u32> = c.chars().map(|x| x.to_digit(10 as u32).unwrap()).collect();
+    let line = line.trim();
 
-    c.sort();
-    c.reverse();
+    let mut a: Vec<char> = line.chars().collect();
 
-    for i in c {
-        print!("{}", i);
-    }
-    println!();
+    a.sort();
+    a.reverse();
+
+    let mut translate = HashMap::new();
+
+    translate.insert('0',"");
+    translate.insert('1',"");
+    translate.insert('2',"2");
+    translate.insert('3',"3");
+    translate.insert('4',"322");
+    translate.insert('5',"5");
+    translate.insert('6',"53");
+    translate.insert('7',"7");
+    translate.insert('8',"7222");
+    translate.insert('9',"7332");
+
+    let mut ans = String::from("");
+
+    for ch in a {
+        ans.push_str(translate.get(&ch).unwrap());
+    } 
+
+    let mut fin: Vec<char> = ans.chars().collect();
+    fin.sort();
+    fin.reverse();
+
+    println!("{}", fin.into_iter().collect::<String>());
 }
+

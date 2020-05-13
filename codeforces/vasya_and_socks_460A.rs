@@ -1,4 +1,4 @@
-// https://codeforces.com/problemset/problem/732/A
+// https://codeforces.com/problemset/problem/460/A
 // math
 use std::io;
 
@@ -15,14 +15,9 @@ fn main() {
         .map(|x| x.parse().unwrap())
         .collect();
 
-    let k = words[0];
-    let r = words[1];
+    let n = words[0];
+    let m = words[1];
 
-    for i in 1..=9 {
-        if i*k%10 == r || i*k%10 == 0 {
-            println!("{}", i);
-            break;
-        }
-    }
+    println!("{}", (n*m-1)/(m-1));
 }
 
