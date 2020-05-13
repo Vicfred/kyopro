@@ -1,3 +1,6 @@
+# Vicfred
+# https://codeforces.com/problemset/problem/500/A
+# implementation
 n, t = map(int, input().split())
 a = list(map(int, input().split()))
 
