@@ -1,3 +1,7 @@
+# unihernandez22
+# https://codeforces.com/contest/577/problem/A
+# implementation
+
 n, x = map(int, input().split())
 
 divisors = 0

@@ -1,3 +1,7 @@
+// unihernandez22
+// https://codeforces.com/contest/577/problem/A
+// implementation
+
 import std.stdio: writeln, readln;
 import std.conv: to;
 import std.array: split, array;
