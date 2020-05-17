@@ -1,0 +1,18 @@
+# ignore all
+*
+
+# except source files in these folders
+codeforces/
+atcoder/
+
+!*.cpp
+!*.d
+!*.rs
+!*.py
+!*.hs
+
+# dont ignore gitignore
+!.gitignore
+
+# whitelist the license
+!LICENSE
