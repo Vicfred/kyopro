@@ -2,8 +2,8 @@
 *
 
 # except source files in these folders
-codeforces/
-atcoder/
+!codeforces/
+!atcoder/
 
 !*.cpp
 !*.d
