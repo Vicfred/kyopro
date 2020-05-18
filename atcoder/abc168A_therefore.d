@@ -1,5 +1,6 @@
 // Vicfred
 // https://atcoder.jp/contests/abc168/tasks/abc168_a
+// implementation
 import std.stdio;
 import std.conv;
 import std.string;
