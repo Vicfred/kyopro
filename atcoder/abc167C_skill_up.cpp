@@ -1,5 +1,6 @@
 // Vicfred
 // https://atcoder.jp/contests/abc167/tasks/abc167_c
+// bitmasks
 #include <algorithm>
 #include <climits>
 #include <iostream>
