@@ -1,5 +1,6 @@
 // Vicfred
 // https://atcoder.jp/contests/abc045/tasks/abc045_b
+// simulation
 import std.array;
 import std.stdio;
 import std.string;
