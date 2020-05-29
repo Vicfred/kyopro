@@ -1,3 +1,7 @@
+// unihernandez22
+// https://atcoder.jp/contests/abc154/tasks/abc154_a
+// implementation
+
 import std.stdio: writefln, readf, readln;
 import std.array: split;
 import std.string: chomp;
