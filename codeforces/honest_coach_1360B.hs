@@ -12,7 +12,7 @@ quickSort a = quickSort l ++ pivot:quickSort r
           r = filter ( >pivot) rest
           (pivot:rest) = a
 
-minDiff a = foldr min maxBound $ map (uncurry subtract) $ zip a (tail a)
+minDiff a = foldr min maxBound $ zipWith subtract a (tail a)
 
 main = do
     t <- read <$> getLine
