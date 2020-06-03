@@ -1,3 +1,7 @@
+// unihernandez22
+// https://atcoder.jp/contests/abc157/tasks/abc157_b
+// implementation
+
 import std.stdio: writeln, writefln, readln;
 import std.array: array, split;
 import std.algorithm: map;
