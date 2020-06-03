@@ -1,5 +1,6 @@
 --- frederick99, 6/2020
 --- https://codeforces.com/contest/1360/problem/B
+--- greedy, sorting
 
 import Control.Monad ( replicateM_ )
 

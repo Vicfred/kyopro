@@ -1,5 +1,6 @@
 --- frederick99, 6/2020
 --- https://codeforces.com/contest/1360/problem/H
+--- math, simulation, binary
 
 {-# LANGUAGE TupleSections #-}
 import           Control.Monad ( replicateM_ )

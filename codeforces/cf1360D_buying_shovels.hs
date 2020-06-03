@@ -1,5 +1,6 @@
 --- frederick99, 6/2020
 --- https://codeforces.com/contest/1360/problem/D
+--- math, greedy
 
 import Control.Monad ( replicateM_ )
 

@@ -1,5 +1,6 @@
 --- frederick99, 6/2020
 --- https://codeforces.com/contest/1360/problem/F
+--- implementation, hamming distance
 
 {-# LANGUAGE TupleSections #-}
 import Control.Monad ( replicateM_ )

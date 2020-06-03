@@ -1,12 +1,14 @@
 --- frederick99, 6/2020
 --- https://codeforces.com/contest/1360/problem/C
+--- implementation, sets
 
 import           Control.Monad ( replicateM_ )
 import qualified Data.Set as Set
 
 
 similarPairs :: [Int] -> String
-similarPairs s = let odds = length (filter odd s) in
+similarPairs s =
+    let odds = length (filter odd s) in
     if even odds || any (seen . succ) s
         then "YES"
         else "NO"
