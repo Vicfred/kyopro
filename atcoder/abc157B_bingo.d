@@ -11,9 +11,8 @@ import std.conv: to;
 void main() {
 	int[3][3] bingo;
 	foreach(byte i; 0..3) {
-		int[] input = readln.split.map!(to!int).array;
-		foreach(int j; 0..3)
-			bingo[i][j] = input[j];
+		int[3] input = readln.split.map!(to!int).array;
+		bingo[i] = input;
 	}
 	int n = readln.chomp.to!int;
 	bool[int] won;
@@ -21,6 +20,7 @@ void main() {
 		int x = readln.chomp.to!int;
 		won[x] = true;
 	}
+
 	// Check rows
 	foreach(int[3] i; bingo) {
 		if (won.get(i[0], false) && won.get(i[1], false) && won.get(i[2], false)) {
@@ -28,6 +28,7 @@ void main() {
 			return;
 		}
 	}
+
 	// Check columns
 	foreach(byte i; 0..3) {
 		if (won.get(bingo[0][i], false) && won.get(bingo[1][i], false) && won.get(bingo[2][i], false)) {
@@ -35,8 +36,9 @@ void main() {
 			return;
 		}
 	}
-	bool diagonal_a = true;
+
 	// Check a diagonal
+	bool diagonal_a = true;
 	foreach(byte i; 0..3)
 		diagonal_a = diagonal_a && won.get(bingo[i][i], false);
 
