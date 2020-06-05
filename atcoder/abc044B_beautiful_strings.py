@@ -17,6 +17,6 @@ for value in english.values():
         beautiful = False
 
 if beautiful:
-    print("YES")
+    print("Yes")
 else:
-    print("NO")
+    print("No")
