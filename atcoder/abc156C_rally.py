@@ -1,3 +1,7 @@
+# unihernandez22
+# https://atcoder.jp/contests/abc156/tasks/abc156_c
+# implementation
+
 def ans(p, x):
     a = 0
     for i in x:
