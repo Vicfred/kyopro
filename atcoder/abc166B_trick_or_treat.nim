@@ -3,9 +3,10 @@
 # implementation
 import strutils, sequtils
 
-let line = stdin.readLine.split.map(parseInt)
-let n = line[0]
-let k = line[1]
+let
+  line = stdin.readLine.split.map(parseInt)
+  n = line[0]
+  k = line[1]
 
 var snukes = newSeq[int](n);
 
