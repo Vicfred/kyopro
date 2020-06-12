@@ -1,5 +1,6 @@
 // Vicfred
 // https://atcoder.jp/contests/abc155/tasks/abc155_c
+// implementation
 import std.algorithm;
 import std.conv;
 import std.stdio;
