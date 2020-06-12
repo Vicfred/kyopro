@@ -11,6 +11,7 @@
 !*.rs
 !*.py
 !*.hs
+!*.nim
 
 # dont ignore gitignore
 !.gitignore
