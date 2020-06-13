@@ -7,7 +7,7 @@ import algorithm, strutils, sequtils
 let n = stdin.readLine.split[0].parseInt
 
 var s = (1..n).mapIt(stdin.readLine)
-s.sort
+s.sort system.cmp # system.cmp is required in 0.13.0
 
 var ans = ""
 

@@ -4,8 +4,8 @@
 import algorithm, strutils, sequtils
 
 var line = stdin.readLine.split.map(parseInt)
-line.sort
-if line == [5, 5, 7]:
+line.sort system.cmp # system.cmp required in 0.13.0
+if line == @[5, 5, 7]:
   echo "YES"
 else:
   echo "NO"
