@@ -4,6 +4,7 @@
 # except source files in these folders
 !codeforces/
 !atcoder/
+!spoj/
 !leetcode/
 
 !*.cpp
