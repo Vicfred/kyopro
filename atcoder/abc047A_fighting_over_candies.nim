@@ -2,12 +2,11 @@
 # https://atcoder.jp/contests/abc047/tasks/abc047_a
 # implementation
 
-import strutils, sequtils
+import strutils, sequtils, math
 
-var a, b, c: int
-(a, b, c) = stdin.readLine.split.map parseInt
+let abc = stdin.readLine.split.map parseInt
 
-if (a+b+c) mod 2 == 0 and (a+b+c) div 2 in @[a, b, c]:
+if sum(abc) mod 2 == 0 and sum(abc) div 2 in abc:
   echo "Yes"
 else:
   echo "No"
