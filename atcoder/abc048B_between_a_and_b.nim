@@ -1,6 +1,6 @@
 # unihernandez22
 # https://atcoder.jp/contests/abc048/tasks/abc048_b
-# implementation
+# math
 
 import strutils, sequtils
 
