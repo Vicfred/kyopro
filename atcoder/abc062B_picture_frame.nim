@@ -12,9 +12,9 @@ proc `*`(s: string, n: int): string =
 var h, w: int
 (h, w) = stdin.readLine.split.map parseInt
 
-echo "#"*(w+2)
+echo "#" * (w+2)
 for _ in 1..h:
   let line = stdin.readLine.strip
-  echo "#"&line&"#"
-echo "#"*(w+2)
+  echo "#" & line & "#"
+echo "#" * (w+2)
 
