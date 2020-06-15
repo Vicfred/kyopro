@@ -1,3 +1,7 @@
+// unihernandez22
+// https://atcoder.jp/contests/abc059/tasks/abc059_a
+// implementation
+
 import std.stdio: writefln, readln;
 import std.array: split, array;
 import std.string: capitalize;

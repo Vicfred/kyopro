@@ -1,3 +1,7 @@
+// unihernandez22
+// https://atcoder.jp/contests/abc059/tasks/abc059_b
+// greedy
+
 import std.stdio: writeln, readln;
 import std.string: strip;
 

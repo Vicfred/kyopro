@@ -1,3 +1,7 @@
+// unihernandez22
+// https://atcoder.jp/contests/abc060/tasks/abc060_a
+// implementation
+
 import std.stdio: writeln, readln;
 import std.array: split;
 
