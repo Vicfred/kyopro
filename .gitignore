@@ -13,6 +13,8 @@
 !*.py
 !*.hs
 !*.nim
+!*.js
+!*.php
 
 # dont ignore gitignore
 !.gitignore
