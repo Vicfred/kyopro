@@ -1,5 +1,5 @@
 # unihernandez22
-# https://atcoder.jp/contests/abc072/submissions/me
+# https://atcoder.jp/contests/abc072/tasks/abc072_b
 # implementation
 
 from strutils import strip

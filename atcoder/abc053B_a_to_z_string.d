@@ -1,3 +1,7 @@
+// unihernandez22
+// https://atcoder.jp/contests/abc053/tasks/abc053_b
+// implementation
+
 import std.stdio;
 import std.string;
 void main() {
