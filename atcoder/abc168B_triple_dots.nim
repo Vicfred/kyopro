@@ -1,3 +1,7 @@
+# unihernandez22
+# https://atcoder.jp/contests/abc168/tasks/abc168_b
+# implementation
+
 from strutils import strip, parseInt
 
 let k = stdin.readLine.parseInt
