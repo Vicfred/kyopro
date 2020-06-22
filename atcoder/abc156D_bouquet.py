@@ -1,6 +1,6 @@
 # Vicfred
 # https://atcoder.jp/contests/abc156/tasks/abc156_d
-# math
+# math, binomial coefficients
 def binpow(a, b, m):
     a %= m
     res = 1

@@ -1,6 +1,6 @@
 // Vicfred
 // https://atcoder.jp/contests/abc156/tasks/abc156_d
-// math
+// math, binomial coefficients
 import std.algorithm;
 import std.stdio;
 long mod = 10^^9+7;
