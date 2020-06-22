@@ -7,7 +7,8 @@ n = int(input())
 digits = []
 
 while n > 0:
-    digits.append(chr(n%26+96))
+    n -= 1
+    digits.append(chr(n%26+97))
     n //= 26
 
 print(''.join(reversed(digits)))
