@@ -1,6 +1,8 @@
-// unihernandez22
-// https://atcoder'jp/contests/abc157/tasks/abc157_a
-// math
+[
+unihernandez22
+https://atcoder.jp/contests/abc157/tasks/abc157_a
+math
+]
 
 >>>>
 [-]>[-]+[[-]>[-],[+[-----------[>[-]++++++[<------>-]

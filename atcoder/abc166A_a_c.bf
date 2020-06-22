@@ -1,6 +1,8 @@
+[
 unihernandez22
-https://atcoder'jp/contests/abc166/tasks/abc166_a
+https://atcoder.jp/contests/abc166/tasks/abc166_a
 the fucking implementation
+]
 >
 A >>> +++++ +++++ +++ [< +++++ > -] <<<
 +++++ +++++ + [> +++++ + < -] ,[-], [->-<]+>[<->[-]] < <[-]+> [
