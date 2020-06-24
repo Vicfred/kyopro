@@ -15,6 +15,7 @@
 !*.nim
 !*.js
 !*.php
+!*.bf
 
 # dont ignore gitignore
 !.gitignore
