@@ -8,7 +8,7 @@ void main() {
 	string s = readln.chomp;
 	string t = readln.chomp;
 
-	ulong idx = -1;
+	long idx = -1;
 	bool matched;
 	for(long i = (s.count-t.count); i >= 0; i--) {
 		if (s[i] == '?' || s[i] == t[0]) {
