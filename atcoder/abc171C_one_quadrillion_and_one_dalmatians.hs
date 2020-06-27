@@ -1,3 +1,7 @@
+-- frederick99
+-- https://atcoder.jp/contests/abc171/tasks/abc171_c
+-- math
+
 import Data.Char (chr)
  
 solve :: Int -> Int -> (Int, String)
