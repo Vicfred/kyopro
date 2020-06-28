@@ -12,10 +12,9 @@ honestCoach = minSeparation . quickSort
 quickSort :: Ord a => [a] -> [a]
 quickSort [] = []
 quickSort [x] = [x]
-quickSort a = quickSort l ++ pivot : quickSort r
+quickSort (pivot : rest) = quickSort l ++ pivot : quickSort r
     where l = filter (<=pivot) rest
           r = filter ( >pivot) rest
-          (pivot : rest) = a
 
 
 minSeparation :: (Ord a, Num a) => [a] -> a
