@@ -15,3 +15,4 @@ void main() {
     readln;
     writefln("%d", a*b/gcd(a,b));
 }
+
