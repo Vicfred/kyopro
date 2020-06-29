@@ -18,6 +18,7 @@
 !*.js
 !*.php
 !*.bf
+!*.go
 
 # dont ignore gitignore
 !.gitignore
