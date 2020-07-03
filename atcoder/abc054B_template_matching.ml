@@ -13,7 +13,7 @@ Scanf.scanf "%d %d\n" @@ fun n m ->
         for j = 0 to n-m do
             valid := true;
             for y = 0 to m-1 do
-                if not (String.sub a.(i+y) j m = b.(y)) then
+                if String.sub a.(i+y) j m <> b.(y) then
                     valid := false;
             done;
             if !valid then
