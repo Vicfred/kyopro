@@ -1,3 +1,8 @@
+(* unihernandez22
+ * https://atcoder.jp/contests/abc066/tasks/abc066_b
+ * string manipulation
+ * *)
+
 let even s =
     let n = String.length s in
     if n mod 2 != 0 then false
