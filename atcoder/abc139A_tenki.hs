@@ -5,5 +5,6 @@
 predict :: String -> String -> Int
 predict s t = length $ filter id $ zipWith (==) s t
 
+main :: IO ()
 main = predict <$> getLine <*> getLine >>= print
 
