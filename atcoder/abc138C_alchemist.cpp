@@ -1,3 +1,7 @@
+// TsukiZombina
+// https://atcoder.jp/contests/abc138/tasks/abc138_c
+// sorting, greedy
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
