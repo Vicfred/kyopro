@@ -11,5 +11,4 @@ let rec count_eq s t i c =
 Printf.printf "%d\n" @@
 Scanf.scanf "%s\n%s\n" @@ fun s t ->
     count_eq s t 0 0;;
-    
 
