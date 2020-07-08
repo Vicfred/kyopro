@@ -22,9 +22,9 @@ int main()
     }
 
     if (flag) {
-        std::cout << "BAD";
+        std::cout << "Bad";
     } else {
-        std::cout << "GOOD";
+        std::cout << "Good";
     }
 
     return 0;
