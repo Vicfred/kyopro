@@ -1,7 +1,7 @@
-(* TsukiZombina
+/* TsukiZombina
  * https://atcoder.jp/contests/abc131/tasks/abc131_a
  * implementation
- * *)
+ * */
 
 #include <iostream>
 #include <string>
