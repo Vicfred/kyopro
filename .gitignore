@@ -6,6 +6,7 @@
 !atcoder/
 !spoj/
 !leetcode/
+!classical/
 
 # programming languages
 !*.cpp
