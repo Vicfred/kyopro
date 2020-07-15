@@ -7,12 +7,12 @@ import std.conv;
 import std.stdio;
 import std.string;
 
-struct restaurant {
+struct Restaurant {
     string name;
     int score;
     int index;
 
-    int opCmp(restaurant rhs) const {
+    int opCmp(Restaurant rhs) const {
         if(name == rhs.name)
             return rhs.score - score;
         return cmp(name, rhs.name);
@@ -21,13 +21,13 @@ struct restaurant {
 
 void main() {
     const int n = readln.chomp.to!int;
-    restaurant[] restaurants;
+    Restaurant[] restaurants;
 
     for(int i = 1; i <= n; i++) {
         string name;
         int score;
         readf("%s %s\n", &name, &score);
-        restaurant r = restaurant(name, score, i);
+        Restaurant r = Restaurant(name, score, i);
         restaurants ~= r;
     }
 
