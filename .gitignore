@@ -21,6 +21,7 @@
 !*.php
 !*.bf
 !*.go
+!*.c
 
 # dont ignore gitignore
 !.gitignore
