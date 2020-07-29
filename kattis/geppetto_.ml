@@ -1,3 +1,8 @@
+(* unihernandez22
+ * https://open.kattis.com/problems/geppetto
+ * brute force, bitmask
+ * *)
+
 open Printf
 open Scanf;;
 
