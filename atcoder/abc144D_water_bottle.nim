@@ -1,3 +1,7 @@
+# unihernandez22
+# https://atcoder.jp/contests/abc144/tasks/abc144_d
+# binary search, math
+
 import math, strutils, sequtils
 
 proc input: string = stdin.readLine
