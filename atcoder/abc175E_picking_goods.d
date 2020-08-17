@@ -1,6 +1,6 @@
 // Vicfred
 // https://atcoder.jp/contests/abc175/tasks/abc175_e
-// 
+// dynamic programming
 import std.algorithm;
 import std.array;
 import std.conv;
@@ -24,10 +24,9 @@ void main() {
 
     for(int i = 1; i <= R; ++i) {
         for(int j = 1; j <= C; ++j) {
-            long newrow = max(
-                    max(dp[i-1][j][0], dp[i-1][j][1]),
-                    max(dp[i-1][j][2], dp[i-1][j][3]),
-                    );
+            long newrow = long.min;
+            for(int k = 0; k <= 3; ++k)
+                newrow = max(newrow, dp[i-1][j][k]);
             dp[i][j][0] = max(dp[i][j-1][0], newrow);
             dp[i][j][1] = max(dp[i][j-1][1], max(newrow, dp[i][j-1][0]) + v[i][j]);
             dp[i][j][2] = max(dp[i][j-1][2], dp[i][j-1][1] + v[i][j]);
