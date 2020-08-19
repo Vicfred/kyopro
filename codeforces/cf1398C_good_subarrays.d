@@ -1,6 +1,6 @@
 // Vicfred
 // https://codeforces.com/contest/1398/problem/C
-//
+// math
 import std.conv;
 import std.stdio;
 import std.string;
