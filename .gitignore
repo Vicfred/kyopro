@@ -8,6 +8,7 @@
 !spoj/
 !leetcode/
 !classical/
+!yukicoder/
 
 # programming languages
 !*.cpp
