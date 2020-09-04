@@ -1,3 +1,7 @@
+# unihernandez22
+# https://codeforces.com/contest/1397/problem/A
+# implementation
+
 from collections import Counter
 
 t = int(input())
