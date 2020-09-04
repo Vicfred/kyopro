@@ -23,6 +23,7 @@
 !*.bf
 !*.go
 !*.c
+!*.lua
 
 # dont ignore gitignore
 !.gitignore
