@@ -25,6 +25,7 @@
 !*.go
 !*.c
 !*.lua
+!*.bash
 
 # dont ignore gitignore
 !.gitignore
