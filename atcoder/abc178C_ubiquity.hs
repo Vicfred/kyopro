@@ -1,6 +1,6 @@
 -- unihernandez22
 -- https://atcoder.jp/contests/abc178/tasks/abc178_c
--- math, combinatory
+-- math, combinatorics
 
 binpow a b mmod
   | b == 0    = 1

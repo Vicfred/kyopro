@@ -1,6 +1,6 @@
 # Vicfred & unihernandez22
 # https://atcoder.jp/contests/abc178/tasks/abc178_c
-# combinatory
+# combinatorics
 
 n = int(input())
 mod = 10**9+7

@@ -1,6 +1,6 @@
 -- unihernandez22
 -- https://atcoder.jp/contests/abc140/tasks/abc140_a
--- basic combinatory
+-- basic combinatorics
 
 main = do
   li <- getLine
