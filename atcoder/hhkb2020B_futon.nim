@@ -1,3 +1,7 @@
+# unihernandez22
+# https://atcoder.jp/contests/hhkb2020/tasks/hhkb2020_b
+# implementation
+
 import strutils, sequtils
 
 var H, W: int
