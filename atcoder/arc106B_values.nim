@@ -1,3 +1,7 @@
+# unihernandez22
+# https://atcoder.jp/contests/arc106/tasks/arc106_b
+# dfs
+
 import strutils, sequtils
 
 var n, m: int64
