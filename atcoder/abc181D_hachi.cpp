@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <map>
 
 using namespace std;
 
@@ -33,16 +34,19 @@ int main() {
             multiples.push_back(to_string(i*8));
     }
 
+    map<char, int> counter;
+    for(char c: S)
+        counter[c] += 1;
+
     for(string multiple: multiples) {
         bool valid = true;
         for(char c = '0'; c <= '9'; c++) {
-            //cout << c << ": " << count(begin(S), end(S), c) << endl;
-            //cout << c << ": " << count(begin(multiple), end(multiple), c) << endl;
             if(count(begin(multiple), end(multiple), c) >
-               count(begin(S), end(S), c)) {
+               counter[c]) {
                 valid = false;
             }
         }
+
         if(valid) {
             cout << "Yes" << endl;
             return 0;
