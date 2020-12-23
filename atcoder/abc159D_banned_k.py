@@ -1,4 +1,4 @@
-# Vicfred & unihernandez22
+# Vicfred & uninhm
 # https://atcoder.jp/users/unihernandez22
 # math
 n = int(input())
