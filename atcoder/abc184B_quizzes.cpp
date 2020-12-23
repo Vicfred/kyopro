@@ -1,4 +1,4 @@
-// unihernandez22
+// uninhm
 // https://atcoder.jp/contests/abc184/tasks/abc184_b
 // implementation, simulation
 
