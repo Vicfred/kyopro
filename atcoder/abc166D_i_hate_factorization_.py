@@ -1,4 +1,4 @@
-# unihernandez22 & Vicfred
+# uninhm & Vicfred
 # https://atcoder.jp/contests/abc166/tasks/abc166_d
 # math, probability, random
 from random import randint
