@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://codeforces.com/problemset/problem/579/A
 # bit manipulation
 
