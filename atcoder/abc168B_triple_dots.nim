@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://atcoder.jp/contests/abc168/tasks/abc168_b
 # implementation
 
