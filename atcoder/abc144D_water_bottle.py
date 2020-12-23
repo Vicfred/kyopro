@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://atcoder.jp/contests/abc144/tasks/abc144_d
 # binary search, math
 
