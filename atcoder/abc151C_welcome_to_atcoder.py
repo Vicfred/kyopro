@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://atcoder.jp/contests/abc151/tasks/abc151_c
 # implementation
 
