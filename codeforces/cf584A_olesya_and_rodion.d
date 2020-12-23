@@ -1,4 +1,4 @@
-// unihernandez22
+// uninhm
 // https://codeforces.com/contest/584/problem/A
 // implementation
 import std.stdio: writeln, readln;
