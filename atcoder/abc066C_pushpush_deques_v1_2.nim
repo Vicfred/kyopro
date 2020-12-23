@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://atcoder.jp/contests/abc066/tasks/arc077_a
 # data structures
 import strutils, deques
