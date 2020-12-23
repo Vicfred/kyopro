@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://atcoder.jp/contests/abc176/tasks/abc176_a
 # math
 
