@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://atcoder.jp/contests/abc166/tasks/abc166_e
 # hashing, math, implementation
 n = int(input())
