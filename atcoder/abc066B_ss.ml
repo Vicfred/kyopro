@@ -1,4 +1,4 @@
-(* unihernandez22
+(* uninhm
  * https://atcoder.jp/contests/abc066/tasks/abc066_b
  * string manipulation
  * *)
