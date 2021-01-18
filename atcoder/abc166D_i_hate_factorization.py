@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://atcoder.jp/contests/abc166/tasks/abc166_d
 # math, brute force
 n = int(input())

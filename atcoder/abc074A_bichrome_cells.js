@@ -1,4 +1,4 @@
-// unihernandez22
+// uninhm
 // https://atcoder.jp/contests/abc074/tasks/abc074_a
 // implementation
 

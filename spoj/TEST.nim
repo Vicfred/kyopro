@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://www.spoj.com/problems/TEST/
 # implementation
 

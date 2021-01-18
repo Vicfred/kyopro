@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://atcoder.jp/contests/abc160/tasks/abc160_a
 # implementation
 a = input()

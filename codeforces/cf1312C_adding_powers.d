@@ -1,4 +1,4 @@
-// unihernandez22
+// uninhm
 // https://codeforces.com/contest/1312/problem/C
 // greedy, math
 

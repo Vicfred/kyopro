@@ -1,4 +1,4 @@
--- unihernandez22
+-- uninhm
 -- https://atcoder.jp/contests/abc149/tasks/abc149_c
 -- eratosthenes sieve
 

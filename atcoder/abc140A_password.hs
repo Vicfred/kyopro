@@ -1,4 +1,4 @@
--- unihernandez22
+-- uninhm
 -- https://atcoder.jp/contests/abc140/tasks/abc140_a
 -- basic combinatorics
 

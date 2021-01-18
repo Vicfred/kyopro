@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://codeforces.com/contest/650/problem/A
 # greedy
 

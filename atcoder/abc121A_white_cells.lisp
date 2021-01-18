@@ -1,4 +1,4 @@
-; unihernandez22
+; uninhm
 ; https://atcoder.jp/contests/abc121/tasks/abc121_a
 ; math
 

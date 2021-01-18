@@ -1,4 +1,4 @@
-// unihernandez22 Vicfred
+// uninhm Vicfred
 // https://codeforces.com/problemset/problem/1312/C
 // greedy, math
 #include <algorithm>

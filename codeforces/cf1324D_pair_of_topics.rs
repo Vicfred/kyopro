@@ -1,4 +1,4 @@
-// unihernandez22
+// uninhm
 // https://codeforces.com/contest/1324/problem/D
 // math, binary search
 

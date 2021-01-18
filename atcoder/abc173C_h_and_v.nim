@@ -1,4 +1,4 @@
-# unihernandez22 and Vicfred
+# uninhm and Vicfred
 # https://atcoder.jp/contests/abc173/tasks/abc173_c
 # implementation, brute force
 

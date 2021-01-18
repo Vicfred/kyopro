@@ -1,4 +1,4 @@
-// unihernandez22
+// uninhm
 // https://atcoder.jp/contests/abc152/tasks/abc152_b
 // implementation
 

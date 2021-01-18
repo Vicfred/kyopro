@@ -1,4 +1,4 @@
-(* unihernandez22
+(* uninhm
  * https://atcoder.jp/contests/abc054/tasks/abc054_a
  * implementation
  * *)

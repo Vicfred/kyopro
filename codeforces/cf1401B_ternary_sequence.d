@@ -1,4 +1,4 @@
-// Ported to D by unihernandez22
+// Ported to D by uninhm
 // Solution by Vicfred
 // https://codeforces.com/contest/1401/problem/B
 
