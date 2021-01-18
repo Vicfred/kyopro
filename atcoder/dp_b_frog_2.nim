@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://atcoder.jp/contests/dp/tasks/dp_b
 # dynamic programming
 

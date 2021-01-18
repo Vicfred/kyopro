@@ -1,4 +1,4 @@
-;; unihernandez22
+;; uninhm
 ;; https://atcoder.jp/contests/abc120/tasks/abc120_a
 ;; implementation
 

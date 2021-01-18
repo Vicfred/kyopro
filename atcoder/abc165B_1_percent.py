@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://atcoder.jp/contests/abc165/tasks/abc165_b
 # simulation
 x = int(input())

@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://atcoder.jp/contests/abc167/tasks/abc167_c
 # implementation
 n, m, x = map(int, input().split())

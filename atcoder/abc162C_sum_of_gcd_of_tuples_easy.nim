@@ -1,4 +1,4 @@
-# Vicfred & unihernandez22
+# Vicfred & uninhm
 # https://atcoder.jp/contests/abc162/tasks/abc162_c
 # math
 

@@ -1,4 +1,4 @@
-// unihernandez22
+// uninhm
 // https://open.kattis.com/problems/cudoviste
 // brute force
 

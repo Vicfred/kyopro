@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://codeforces.com/contest/1397/problem/A
 # implementation
 

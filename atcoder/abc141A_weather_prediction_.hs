@@ -1,4 +1,4 @@
--- unihernandez22
+-- uninhm
 -- https://atcoder.jp/contests/abc141/tasks/abc141_a
 -- implementation
 

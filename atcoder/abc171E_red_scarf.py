@@ -1,4 +1,4 @@
-# Implementation by unihernandez22 || Idea by Vicfred
+# Implementation by uninhm || Idea by Vicfred
 # https://atcoder.jp/contests/abc171/tasks/abc171_e
 # bitwise
 

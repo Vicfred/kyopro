@@ -1,4 +1,4 @@
-(* unihernandez22
+(* uninhm
  * https://atcoder.jp/contests/abc173/tasks/abc173_b
  * implementation
  * *)

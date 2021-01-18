@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://atcoder.jp/contests/abc166/tasks/abc166_c
 # implementation, graphs
 n, m = map(int, input().split())
