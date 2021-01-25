@@ -1,6 +1,6 @@
 // Vicfred
 // https://codeforces.com/contest/1469/problem/B
-//
+// greedy, cumulative sum
 import std.algorithm;
 import std.array;
 import std.conv;
