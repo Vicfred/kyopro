@@ -1,5 +1,5 @@
 # Vicfred & uninhm
-# https://atcoder.jp/users/unihernandez22
+# https://atcoder.jp/contests/abc159/tasks/abc159_d
 # math
 n = int(input())
 a = list(map(int, input().split()))
