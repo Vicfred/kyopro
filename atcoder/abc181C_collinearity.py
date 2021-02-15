@@ -1,5 +1,5 @@
 # solution by Vicfred
-# implementation by unihernandez22
+# implementation by uninhm
 # https://atcoder.jp/contests/abc181/tasks/abc181_c
 # math
 
