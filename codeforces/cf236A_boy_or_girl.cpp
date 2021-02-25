@@ -1,4 +1,6 @@
+// Martin
 // https://codeforces.com/contest/236/problem/A
+// implementation, brute force, set
 
 #include<iostream>
 #include<string>

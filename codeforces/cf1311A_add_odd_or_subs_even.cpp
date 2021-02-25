@@ -1,4 +1,6 @@
+// Martin
 // https://codeforces.com/contest/1311/problem/A
+// greedy, math
 
 #include<iostream>
 

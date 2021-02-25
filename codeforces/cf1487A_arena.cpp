@@ -1,4 +1,6 @@
+// Martin
 // https://codeforces.com/contest/1487/problem/A
+// implementation, sorting
 
 #include<iostream>
 #include<algorithm>

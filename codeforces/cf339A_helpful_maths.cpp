@@ -1,4 +1,6 @@
+// Martin
 // https://codeforces.com/contest/339/problem/A
+// greedy, implementation, sorting
 
 #include<iostream>
 #include<algorithm>

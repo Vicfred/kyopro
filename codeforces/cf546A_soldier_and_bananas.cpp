@@ -1,4 +1,6 @@
+// Martin
 // https://codeforces.com/contest/546/problem/A
+// brute force, implementation, math
 
 #include<iostream>
 

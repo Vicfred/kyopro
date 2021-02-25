@@ -1,4 +1,6 @@
+// Martin
 // https://codeforces.com/problemset/problem/520/A
+// implementation, strings
 
 #include<iostream>
 #include<algorithm>

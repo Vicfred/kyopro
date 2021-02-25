@@ -1,4 +1,6 @@
+// Martin
 // https://codeforces.com/contest/617/problem/A
+// math
 
 #include<iostream>
 

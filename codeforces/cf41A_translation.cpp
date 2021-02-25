@@ -1,4 +1,6 @@
+// Martin
 // https://codeforces.com/contest/41/problem/A
+// implementation, reverse, strings
 
 #include<iostream>
 #include<algorithm>

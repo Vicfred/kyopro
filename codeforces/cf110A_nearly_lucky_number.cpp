@@ -1,4 +1,6 @@
+// Martin
 // https://codeforces.com/contest/110/problem/A
+// implementation, count
 
 #include<iostream>
 #include<algorithm>
