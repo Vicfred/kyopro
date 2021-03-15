@@ -1,6 +1,6 @@
 // Vicfred
 // https://codeforces.com/contest/1493/problem/A
-//
+// greedy
 #include <iostream>
 
 using namespace std;
