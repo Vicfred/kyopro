@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://atcoder.jp/contests/abc159/tasks/abc159_b
 # string manipulation
 def is_palindrome(s):

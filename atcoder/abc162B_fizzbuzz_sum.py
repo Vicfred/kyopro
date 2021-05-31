@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://atcoder.jp/contests/abc162/tasks/abc162_b
 # simulation
 ans = 0

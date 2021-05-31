@@ -1,4 +1,4 @@
-// unihernandez22 & Vicfred & Glum
+// uninhm & Vicfred & Glum
 // https://atcoder.jp/contests/abc168/tasks/abc168_c
 // math
 #include <ios>

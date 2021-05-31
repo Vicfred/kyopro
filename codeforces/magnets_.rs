@@ -1,4 +1,4 @@
-// unihernandez22
+// uninhm
 // https://codeforces.com/problemset/problem/344/A
 
 use std::io::stdin;

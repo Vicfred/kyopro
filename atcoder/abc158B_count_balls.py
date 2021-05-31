@@ -1,4 +1,4 @@
-# unihernandez22
+# uninhm
 # https://atcoder.jp/contests/abc158/tasks/abc158_b
 # math
 n, a, b = map(int, input().split())
