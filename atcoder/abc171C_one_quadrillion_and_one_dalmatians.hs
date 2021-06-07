@@ -1,17 +1,14 @@
--- frederick99
+-- frederick99, algorithm by vicfred
 -- https://atcoder.jp/contests/abc171/tasks/abc171_c
 -- math
 
-import Data.Char (chr)
+import Data.Char ( chr )
  
-solve :: Int -> Int -> (Int, String)
-solve p n = (q, chr (97 + r) : s)
-  where
-    (m, s) = if n > p
-               then solve (p * 26) (n - p)
-               else (n - 1, "")
-    (q, r) = m `divMod` 26
- 
+solve :: Int -> String
+solve 0 = ""
+solve n = chr (97 + r) : solve q
+  where (q, r) = pred n `divMod` 26
+
 main :: IO ()
-main = getLine >>= putStrLn . snd . solve 26 . read
+main = putStrLn =<< reverse . solve . read <$> getLine
 
