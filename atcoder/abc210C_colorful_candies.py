@@ -1,3 +1,7 @@
+# uninhm
+# https://atcoder.jp/contests/abc210/tasks/abc210_b
+# implementation
+
 from collections import Counter
 
 n, k = map(int, input().split())
