@@ -29,6 +29,7 @@
 !*.lua
 !*.bash
 !*.lisp
+!*.scm
 
 # dont ignore gitignore
 !.gitignore
