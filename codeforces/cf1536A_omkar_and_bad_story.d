@@ -1,6 +1,6 @@
 // Vicfred
 // https://codeforces.com/contest/1536/problem/A
-// 
+// greedy
 import std.algorithm;
 import std.array;
 import std.container;
