@@ -8,9 +8,9 @@ import std.functional;
 import std.stdio;
 
 bool lexi(string a, string b) {
-    if(a.length < b.length)
-        return true;
-    return a < b;
+    if(a.length == b.length)
+        return a < b;
+    return a.length < b.length;
 }
 
 void main() {
@@ -21,7 +21,7 @@ void main() {
         for(char d = 'a'; d <= 'z'; ++d) {
             string two = [c, d];
             rbtree.insert(two);
-            for(char e = 'a'; e <= 'z'; ++e) {
+            for(char e = 'a'; e <= 'e'; ++e) {
                 string three = [c, d, e];
                 rbtree.insert(three);
             }
@@ -38,11 +38,10 @@ while(t--) {
     readf("%s\n", &s);
 
     foreach(item; rbtree) {
-        if(count(s, item) > 0) {
-            continue;
+        if(!canFind(s, item)) {
+            item.writeln;
+            break;
         }
-        item.writeln;
-        break;
     }
 }
 }
