@@ -6,3 +6,4 @@ solve [a, b] =
   (a - b) / 3 + b
 
 main = interact $ show . solve . map read . words
+

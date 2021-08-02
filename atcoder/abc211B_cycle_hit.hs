@@ -13,3 +13,4 @@ isSet = check . sort
     check (x:y:xs) = x /= y && check (y:xs)
 
 main = interact $ bool "No" "Yes" . isSet . lines
+
