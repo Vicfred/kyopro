@@ -1,3 +1,7 @@
+-- uninhm
+-- https://codeforces.com/contest/1537/problem/A
+-- greedy
+
 import Control.Monad (replicateM_)
 
 getInt = read <$> getLine
