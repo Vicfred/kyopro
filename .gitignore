@@ -12,6 +12,7 @@
 !topcoder/
 !cses/
 !kickstart/
+!hackercup/
 
 # programming languages
 !*.cpp
