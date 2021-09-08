@@ -1,3 +1,7 @@
+// uninhm
+// https://atcoder.jp/contests/abc217/tasks/abc217_a
+// implementation
+
 import std.stdio;
 
 void main ()
