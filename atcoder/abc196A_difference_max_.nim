@@ -7,6 +7,4 @@ var a, b, c, d: int
 (a, b) = stdin.readLine.split.map parseInt
 (c, d) = stdin.readLine.split.map parseInt
 
-let maxima = b - c
-
-echo maxima
+echo b - c
