@@ -1,6 +1,6 @@
 # Vicfred
 # https://codeforces.com/contest/1555/problem/A
-#
+# basic math
 import sequtils, strutils
 let t = stdin.readLine.parseInt
 
