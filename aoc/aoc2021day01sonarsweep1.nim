@@ -1,3 +1,5 @@
+# Vicfred
+# https://adventofcode.com/2021/day/1
 import strutils
 
 let f = open("input")
