@@ -1,5 +1,8 @@
 # Vicfred
 # https://adventofcode.com/2021/day/5
+#
+# comment: intersection points are preserved under
+# reflection by Y. (y => -y)
 import strscans
 import tables
 
@@ -8,17 +11,15 @@ var line: string
 
 let maxn = 1005
 var mat : Table[int, Table[int, int]]
-for i in 0..maxn:
+for i in 0..<maxn:
   mat[i] = Table[int, int]()
-for i in 0..maxn:
-  for j in -maxn..0:
+for i in 0..<maxn:
+  for j in 0..<maxn:
     mat[i][j] = 0
 
 while f.read_line(line):
   var x1, x2, y1, y2 : int
   if scanf(line, "$i,$i -> $i,$i", x1, y1, x2, y2):
-    y1 = -y1
-    y2 = -y2
     if x1 == x2:
       var start, fin : int
       start = min(y1, y2)
@@ -33,8 +34,8 @@ while f.read_line(line):
         mat[i][y1] = mat[i][y1] + 1
 
 var ans : int
-for i in 0..maxn:
-  for j in -maxn..0:
+for i in 0..<maxn:
+  for j in 0..<maxn:
     if mat[i][j] > 1:
       ans += 1
 echo ans
