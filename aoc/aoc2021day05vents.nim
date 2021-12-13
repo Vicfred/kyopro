@@ -4,18 +4,13 @@
 # comment: intersection points are preserved under
 # reflection by Y. (y => -y)
 import strscans
-import tables
+import sequtils
 
 let f = open("input")
 var line: string
 
 let maxn = 1005
-var mat : Table[int, Table[int, int]]
-for i in 0..<maxn:
-  mat[i] = Table[int, int]()
-for i in 0..<maxn:
-  for j in 0..<maxn:
-    mat[i][j] = 0
+var mat = newSeqWith(maxn, newSeq[int](maxn))
 
 while f.read_line(line):
   var x1, x2, y1, y2 : int
