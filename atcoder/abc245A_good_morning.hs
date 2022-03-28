@@ -1,3 +1,7 @@
+-- uninhm
+-- https://atcoder.jp/contests/abc245/tasks/abc245_a
+-- implementation
+
 solve :: [Int] -> String
 solve [a, b, c, d]
   | a < c = "Takahashi"

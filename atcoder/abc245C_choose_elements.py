@@ -1,3 +1,7 @@
+# uninhm
+# https://atcoder.jp/contests/abc245/tasks/abc245_c
+# implementation
+
 n, k = map(int, input().split())
 a = list(map(int, input().split()))
 b = list(map(int, input().split()))
