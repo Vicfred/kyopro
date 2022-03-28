@@ -32,6 +32,7 @@
 !*.bash
 !*.lisp
 !*.scm
+!*.zig
 
 # dont ignore gitignore
 !.gitignore
