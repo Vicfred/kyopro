@@ -14,6 +14,7 @@
 !kickstart/
 !hackercup/
 !aoc/
+!codejam/
 
 # programming languages
 !*.cpp
