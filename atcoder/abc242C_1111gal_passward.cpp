@@ -1,3 +1,7 @@
+// uninhm
+// https://atcoder.jp/contests/abc242/tasks/abc242_c
+// dp
+
 #include <iostream>
 
 #define MOD 998244353
