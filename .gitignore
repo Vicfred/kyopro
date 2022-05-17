@@ -32,6 +32,8 @@
 !*.bash
 !*.lisp
 !*.scm
+!*.asm
+!*.awk
 
 # dont ignore gitignore
 !.gitignore
