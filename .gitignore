@@ -14,6 +14,7 @@
 !kickstart/
 !hackercup/
 !aoc/
+!codejam/
 
 # programming languages
 !*.cpp
@@ -34,6 +35,7 @@
 !*.scm
 !*.asm
 !*.awk
+!*.zig
 
 # dont ignore gitignore
 !.gitignore
