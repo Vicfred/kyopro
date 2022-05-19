@@ -1,3 +1,6 @@
+# Vicfred
+# https://atcoder.jp/contests/abc197/tasks/abc197_a
+# implementation, beginner
 import strutils
 
 let line = stdin.readLine
