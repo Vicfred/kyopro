@@ -1,6 +1,6 @@
 // Vicfred
 // https://codeforces.com/group/WWgO08JwTh/contest/369508/problem/D
-// dynamic programming
+// dynamic programming, classical
 #include <iostream>
 #include <vector>
 #include <climits>
