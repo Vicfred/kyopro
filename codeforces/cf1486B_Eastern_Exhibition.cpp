@@ -1,3 +1,6 @@
+// Vicfred
+// https://codeforces.com/contest/1486/problem/B
+// greedy, sorting, math
 #include <algorithm>
 #include <iostream>
 #include <vector>
