@@ -1,6 +1,6 @@
 // Vicfred
 // https://codeforces.com/problemset/problem/1614/C
-//
+// bitwise operations, math
 #include <iostream>
 
 using namespace std;
