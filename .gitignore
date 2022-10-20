@@ -36,6 +36,9 @@
 !*.asm
 !*.awk
 !*.zig
+!*.cl
+!*.cr
+!*.rb
 
 # dont ignore gitignore
 !.gitignore
