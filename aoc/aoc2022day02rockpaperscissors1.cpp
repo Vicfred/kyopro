@@ -1,6 +1,6 @@
 // Vicfred
 // https://adventofcode.com/2022/day/1
-// data structures
+// simulation
 #include <algorithm>
 #include <fstream>
 #include <iostream>
