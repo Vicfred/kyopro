@@ -1,27 +1,30 @@
 // Vicfred
 // https://adventofcode.com/2022/day/1
-// implementation
+// data structures
 #include <algorithm>
 #include <iostream>
 #include <fstream>
+#include <set>
 
 using namespace std;
 
 int main() {
   ifstream input("input.txt");
 
-  long long maxima = 0LL;
-  long long current = 0LL;
+  long long calories = 0LL;
+  set<long long> snacks;
   for(string line; getline(input, line);) {
     if(line == "") {
-      maxima = max(maxima, current);
-      current = 0LL;
+      snacks.insert(calories);
+      calories = 0LL;
       continue;
     }
-    current += stoll(line);
+    calories += stoll(line);
   }
 
-  cout << maxima << endl;
+  for(const auto& item : snacks) {
+    cout << item << endl;
+  }
 
   return 0;
 }
