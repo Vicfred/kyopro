@@ -11,13 +11,12 @@ int main() {
   ifstream input("input.txt");
   string line;
   getline(input, line);
-  for (int i = 3; i < line.size(); ++i) {
+  for (int i = 13; i < line.size(); ++i) {
     set<char> letters;
-    letters.insert(line[i - 3]);
-    letters.insert(line[i - 2]);
-    letters.insert(line[i - 1]);
-    letters.insert(line[i - 0]);
-    if (letters.size() >= 4) {
+    for (int j = 0; j < 14; ++j) {
+      letters.insert(line[i - j]);
+    }
+    if (letters.size() >= 14) {
       cout << i + 1 << endl;
       break;
     }
