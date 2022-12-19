@@ -39,7 +39,7 @@ int main() {
     sensor.r = manhattan(sx, sy, bx, by);
     balls.push_back(sensor);
   }
-  const long long int MAXN = 100000000;
+  const long long int MAXN = 10000000;
   const long long int fixed_y = 2000000;
   long long int count = 0;
   for (long long int x = -MAXN; x < MAXN; ++x) {
@@ -51,7 +51,7 @@ int main() {
     }
     if(inside and beacons.count({x,  fixed_y}) == 0 and sensors.count({x,  fixed_y}) == 0) {
       count += 1;
-      cout << x << "," << fixed_y << " is inside" << endl;
+      // cout << x << "," << fixed_y << " is inside" << endl;
     }
   }
   cout << count << endl;
