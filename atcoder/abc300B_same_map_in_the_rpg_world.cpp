@@ -22,6 +22,7 @@ int main() {
     cin >> B[i];
   }
   bool found = false;
+  // TODO(vicfred): consider optimizing this for memory
   for(int s = 0; s < H; ++s) {
     for(int t = 0; t < W; ++t) {
       bool valid = true;
