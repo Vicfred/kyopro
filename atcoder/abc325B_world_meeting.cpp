@@ -1,6 +1,6 @@
 // Vicfred
 // https://atcoder.jp/contests/abc325/tasks/abc325_b
-//
+// brute force
 #include <algorithm>
 #include <iostream>
 #include <vector>
