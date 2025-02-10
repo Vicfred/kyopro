@@ -21,13 +21,13 @@ fn main() {
         A[i] = A[i + 1] ^ A[i];
         let mut valid: bool = true;
         // println!("{} {} {} {} {}", A[0], A[1], A[2], A[3], A[4]);
-        for j in 0..5 {
-            if (A[j] != (j as i64) + 1 as i64) {
+        for j in 0i64..5i64 {
+            if A[j as usize] != j + 1 {
                 valid = false;
                 // println!("failed at {}: {}", j, A[j]);
             }
         }
-        if (valid) {
+        if valid {
             println!("Yes");
             return;
         }
