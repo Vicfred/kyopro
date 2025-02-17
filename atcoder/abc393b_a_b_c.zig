@@ -7,14 +7,9 @@ const std = @import("std");
 fn countABCTriplets(s: []const u8) u32 {
     var triples: u32 = 0;
     const n = s.len;
-    var i: usize = 0;
-    // no ranges in this version of zig
-    // had to use while instead of for (0..n) {}
-    while (i < n) : (i += 1) {
-        var j: usize = i + 1;
-        while (j < n) : (j += 1) {
-            var k: usize = j + 1;
-            while (k < n) : (k += 1) {
+    for (0..n) |i| {
+        for (i + 1..n) |j| {
+            for (j + 1..n) |k| {
                 if (j - i != k - j) {
                     continue;
                 }
