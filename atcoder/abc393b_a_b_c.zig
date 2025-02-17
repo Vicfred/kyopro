@@ -5,9 +5,11 @@
 const std = @import("std");
 
 fn countABCTriplets(s: []const u8) u32 {
-    var triples: u32 = 0;                        
+    var triples: u32 = 0;
     const n = s.len;
     var i: usize = 0;
+    // no ranges in this version of zig
+    // had to use while instead of for (0..n) {}
     while (i < n) : (i += 1) {
         var j: usize = i + 1;
         while (j < n) : (j += 1) {
@@ -29,7 +31,7 @@ pub fn main() !void {
     var buffer: [100]u8 = undefined;
     const stdin = std.io.getStdIn();
     const line = try stdin.reader().readUntilDelimiterOrEof(&buffer, '\n');
-    
+
     if (line) |input| {
         const trimmed = std.mem.trim(u8, input, " \t\n");
         std.debug.print("{}\n", .{countABCTriplets(trimmed)});
