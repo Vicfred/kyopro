@@ -31,6 +31,7 @@
 !*.c
 !*.lua
 !*.bash
+!*.sh
 !*.lisp
 !*.scm
 !*.asm
@@ -39,6 +40,15 @@
 !*.cl
 !*.cr
 !*.rb
+!*.jl
+!*.f
+!*.adb
+!*.scala
+!*.kt
+!*.r
+!*.pas
+!*.pl
+!*.raku
 
 # dont ignore gitignore
 !.gitignore
