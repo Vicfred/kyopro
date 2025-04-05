@@ -1,7 +1,8 @@
 -- vicfred
 -- https://projecteuler.net/problem=3
--- math
+-- sieve, primes
 sieve :: [Integer] -> [Integer]
+sieve [] = []
 sieve (x:xs) = x : (sieve (filter ((/=0) . (`mod` x)) xs))
 
 primes :: [Integer]

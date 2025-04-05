@@ -1,6 +1,6 @@
 -- vicfred
 -- https://projecteuler.net/problem=2
--- math
+-- fibonacci
 fibonacci :: [Integer]
 fibonacci = 0 : 1 : zipWith (+) fibonacci (tail fibonacci)
 
