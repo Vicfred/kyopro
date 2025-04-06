@@ -1,3 +1,6 @@
+-- vicfred
+-- https://projecteuler.net/problem=19
+-- implementation
 data Date = Date { year :: Int, month :: Int, day :: Int } deriving (Show, Eq)
 
 data DayOfWeek = Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday
