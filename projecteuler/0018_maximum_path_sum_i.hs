@@ -24,4 +24,4 @@ count [xs] = xs
 count (xs:xss) = let cs = count xss in zipWith (+) xs (zipWith max (init cs) (tail cs))
 
 main :: IO ()
-main = print . count $ triangle
+main = print . head . count $ triangle
