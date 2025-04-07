@@ -1,8 +1,8 @@
 -- vicfred
 -- https://projecteuler.net/problem=22
 -- implementation
-import Data.Char
-import Data.List
+import Data.Char (ord)
+import Data.List (sort)
 
 names :: [String]
 names = sort [
