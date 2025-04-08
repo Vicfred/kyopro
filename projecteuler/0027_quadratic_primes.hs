@@ -21,6 +21,7 @@ quadratic a b n = n^2 + a * n + b
 evalInterval :: Int -> Int -> [Int]
 evalInterval a b = map (quadratic a b) [0..]
 
+main :: IO
 main = print $ (\(x, y, z) -> x*y)
             <$> maximumBy (\(a,b,c) (a',b',c') -> compare (length c) (length c'))
             $ [(a,b, takeWhile isPrime (evalInterval a b))
