@@ -4,7 +4,10 @@
 import Data.Bool
 
 main :: IO ()
-main = getLine >>= putStrLn . bool "No" "Yes" . f . map read . words
+main = getLine >>= putStrLn .bool "No" "Yes"
+                            .f
+                            .map read
+                            .words
 
 f :: [Int] -> Bool
 f [1,2,3,5,4] = True
