@@ -10,5 +10,4 @@ minRating :: Int -> Int
 minRating r
           | r < 100 = 100 - r
           | r < 200 = 200 - r
-          | r < 300 = 300 - r
-          | otherwise = 400
+          | otherwise = 300 - r
