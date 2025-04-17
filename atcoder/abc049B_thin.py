@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc049/tasks/abc049_b
 # simulation
 h, w = list(map(int, input().split()))
