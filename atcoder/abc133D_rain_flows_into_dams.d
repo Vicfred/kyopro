@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc133/tasks/abc133_d
 // math, implementation
 import std.algorithm;
