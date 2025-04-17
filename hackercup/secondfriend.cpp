@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://www.facebook.com/codingcompetitions/hacker-cup/2022/qualification-round/problems/B1
 // greedy
 #include <iostream>
