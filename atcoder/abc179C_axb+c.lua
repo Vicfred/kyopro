@@ -1,4 +1,4 @@
--- Vicfred
+-- vicfred
 -- https://atcoder.jp/contests/abc179/tasks/abc179_c
 -- math, combinatorics
 n = io.read("*n")
