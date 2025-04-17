@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc193/tasks/abc193_c
 // math, brute force
 import std.container;
