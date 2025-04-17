@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc185/tasks/abc185_c
 // math, binomial coefficients, pascal triangle
 import std.stdio;
