@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/problemset/problem/550/A
 // greedy
 use std::io;
