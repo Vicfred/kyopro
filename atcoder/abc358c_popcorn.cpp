@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc358/tasks/abc358_c
 // brute force, bitmask
 #include <iostream>
