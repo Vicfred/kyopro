@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc053/tasks/abc053_b
 # string manipulation
 import algorithm
