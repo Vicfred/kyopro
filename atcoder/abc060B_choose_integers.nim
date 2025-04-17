@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc060/tasks/abc060_b
 # math, implementation
 import strutils, sequtils
