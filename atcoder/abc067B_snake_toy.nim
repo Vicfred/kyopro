@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc067/tasks/abc067_b
 # sorting, greedy
 import strutils, sequtils, algorithm
