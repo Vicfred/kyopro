@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://cses.fi/problemset/task/1636
 // dynamic programming
 #include <iostream>
