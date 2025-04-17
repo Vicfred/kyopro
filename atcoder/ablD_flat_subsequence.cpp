@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abl/tasks/abl_d
 // segment tree
 #include <iostream>
