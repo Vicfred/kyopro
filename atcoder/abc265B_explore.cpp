@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc265/tasks/abc265_b
 // implementation
 #include <iostream>
