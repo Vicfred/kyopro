@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc314/tasks/abc314_b
 // greedy
 #include <algorithm>
