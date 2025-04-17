@@ -1,4 +1,4 @@
-(*(* vicfred
+(* vicfred
  * https://atcoder.jp/contests/abc142/tasks/abc142_b
  * implementation, simulation
  * *)
