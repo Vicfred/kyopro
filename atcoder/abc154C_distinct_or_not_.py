@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc154/tasks/abc154_c
 # sorting
 n = int(input())
