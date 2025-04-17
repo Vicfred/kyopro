@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://open.kattis.com/problems/workstations
 // prioty queue, heap
 #include <iostream>
