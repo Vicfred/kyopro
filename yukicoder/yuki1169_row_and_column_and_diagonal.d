@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://yukicoder.me/problems/no/1169
 // implementation
 import std.stdio;
