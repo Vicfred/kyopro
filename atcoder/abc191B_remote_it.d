@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc191/tasks/abc191_b
 // data structures, implementation, simulation
 import std.algorithm;
