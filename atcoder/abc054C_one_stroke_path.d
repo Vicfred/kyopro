@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc054/tasks/abc054_c
 // dfs
 import std.stdio;
