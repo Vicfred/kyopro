@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://open.kattis.com/problems/orders
 // dynamic programming
 #include <algorithm>
