@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1542/problem/B
 // math, greedy
 import std.container;
