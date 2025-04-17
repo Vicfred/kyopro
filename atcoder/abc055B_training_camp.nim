@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc055/tasks/abc055_b
 # math
 import strutils, math
