@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc132/tasks/abc132_b
 # implementation
 n = int(input())
