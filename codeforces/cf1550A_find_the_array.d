@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1550/problem/A
 // greedy
 import std.stdio;
