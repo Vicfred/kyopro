@@ -28,7 +28,7 @@ for _ in 1 .. q:
   shrine = s.binary_search(x)
   temple = t.binary_search(x)
   ans = int.high
-  # --- Vicfred ---------------------------------
+  # --- vicfred ---------------------------------
   for j in 0 .. 1:
     for k in 0 .. 1:
       var
