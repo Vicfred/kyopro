@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://open.kattis.com/problems/geppetto
 // brute force, bitmask
 #include <iostream>
