@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1494/problem/B
 // brute force, bitmask
 import std.stdio;
