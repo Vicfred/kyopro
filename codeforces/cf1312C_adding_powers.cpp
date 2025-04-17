@@ -1,4 +1,4 @@
-// uninhm Vicfred
+// uninhm(* vicfred
 // https://codeforces.com/problemset/problem/1312/C
 // greedy, math
 #include <algorithm>
