@@ -1,4 +1,4 @@
--- Vicfred
+-- vicfred
 -- https://codeforces.com/problemset/problem/4/A
 
 f :: Int -> String
