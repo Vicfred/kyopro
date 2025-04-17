@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1703/problem/B
 // data structures
 #include <iostream>
