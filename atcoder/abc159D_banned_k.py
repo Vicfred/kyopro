@@ -1,4 +1,4 @@
-# Vicfred & uninhm
+# vicfred & uninhm
 # https://atcoder.jp/contests/abc159/tasks/abc159_d
 # math
 n = int(input())
