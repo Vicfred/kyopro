@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1516/problem/A
 // greedy, implementation
 import std.algorithm;
