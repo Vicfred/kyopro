@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1509/problem/A
 // greedy
 use std::io::stdin;
