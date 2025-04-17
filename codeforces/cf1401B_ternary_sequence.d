@@ -1,5 +1,5 @@
 // Ported to D by uninhm
-// Solution by Vicfred
+// Solution by(* vicfred
 // https://codeforces.com/contest/1401/problem/B
 
 import std.stdio;
