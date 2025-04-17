@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc150/tasks/abc150_c
 # brute force, permutations
 import strutils, sequtils, algorithm, tables, math
