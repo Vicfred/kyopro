@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1430/problem/A
 // brute force
 import std.stdio;
