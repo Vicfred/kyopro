@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc167/tasks/abc167_c
 // bitmasks
 import std.algorithm;
