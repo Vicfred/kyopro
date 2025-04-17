@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://open.kattis.com/problems/islands
 // brute force
 #include <iostream>
