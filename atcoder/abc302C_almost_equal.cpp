@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc302/tasks/abc302_c
 // brute force, permutations
 #include <algorithm>
