@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1525/problem/A
 // basic math
 import std.stdio;
