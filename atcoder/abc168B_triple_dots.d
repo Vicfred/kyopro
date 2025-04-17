@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc168/tasks/abc168_b
 // implementation
 import std.conv;
