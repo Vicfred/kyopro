@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1400/problem/A
 // greedy
 import std.conv;
