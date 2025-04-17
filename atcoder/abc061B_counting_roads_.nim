@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc061/tasks/abc061_b
 # bucket sort 
 import strutils, sequtils, tables
