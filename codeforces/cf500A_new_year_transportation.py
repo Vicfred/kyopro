@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://codeforces.com/problemset/problem/500/A
 # implementation
 n, t = map(int, input().split())
