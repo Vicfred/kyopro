@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc366/tasks/abc366_b
 // implementation
 #include <algorithm>
