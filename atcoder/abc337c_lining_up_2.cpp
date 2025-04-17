@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc337/tasks/abc337_c
 // data structures, implementation
 #include <iostream>
