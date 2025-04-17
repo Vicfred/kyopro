@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc326/tasks/abc326_b
 // brute force
 #include <iostream>
