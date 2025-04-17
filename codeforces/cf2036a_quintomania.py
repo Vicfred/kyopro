@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://codeforces.com/contest/2036/problem/A
 # implementation
 t = int(input())
