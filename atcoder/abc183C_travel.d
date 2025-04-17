@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc183/tasks/abc183_c
 // permutations, brute force
 import std.algorithm;
