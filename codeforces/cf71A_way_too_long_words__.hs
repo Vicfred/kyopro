@@ -1,4 +1,4 @@
--- Vicfred
+-- vicfred
 -- https://codeforces.com/problemset/problem/71/A
 -- implementation
 import Control.Monad
