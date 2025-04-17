@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://adventofcode.com/2021/day/9
 # graph traversal, flood fill, bfs, dfs
 import algorithm, sequtils
