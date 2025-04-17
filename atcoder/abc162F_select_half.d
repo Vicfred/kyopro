@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc162/tasks/abc162_f
 // dynamic programming, cumulative sum
 import std.algorithm;
