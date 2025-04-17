@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/dp/tasks/dp_d
 // dynamic programming
 import std.algorithm;
