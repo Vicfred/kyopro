@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc049/tasks/abc049_a
 # simulation
 c = input()
