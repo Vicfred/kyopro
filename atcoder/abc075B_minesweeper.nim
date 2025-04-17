@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc075/tasks/abc075_b
 # simulation
 import strutils, sequtils
