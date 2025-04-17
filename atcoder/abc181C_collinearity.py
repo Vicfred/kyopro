@@ -1,4 +1,4 @@
-# solution by Vicfred
+# solution by(* vicfred
 # implementation by uninhm
 # https://atcoder.jp/contests/abc181/tasks/abc181_c
 # math
