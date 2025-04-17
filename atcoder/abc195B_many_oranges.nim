@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc195/tasks/abc195_b
 # math, implementation, brute force
 import sequtils, strutils, math
