@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc046/tasks/abc046_a
 // simulation, data structures
 import std.algorithm;
