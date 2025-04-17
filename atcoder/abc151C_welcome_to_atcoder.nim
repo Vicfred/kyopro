@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc151/tasks/abc151_c
 # data structures, maps, implementation
 import strutils, sequtils, tables
