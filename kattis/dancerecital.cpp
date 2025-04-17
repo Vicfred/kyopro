@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://open.kattis.com/problems/dancerecital
 // brute force, permutations
 #include <algorithm>
