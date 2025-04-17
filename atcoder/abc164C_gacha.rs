@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc164/tasks/abc164_c
 // set
 use std::io;
