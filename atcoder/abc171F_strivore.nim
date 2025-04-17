@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc171/tasks/abc171_f
 # math, binomial coefficients
 import strutils, math
