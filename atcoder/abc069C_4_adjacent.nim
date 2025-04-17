@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc069/tasks/arc080_a
 # implementation
 import strutils, sequtils
