@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://adventofcode.com/2021/day/4
 import strutils, sequtils, sets
 # type CheckBoard = array[5, array[5, int]]
