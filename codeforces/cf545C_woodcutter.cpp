@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/problemset/problem/545/C
 //
 #include <iostream>
