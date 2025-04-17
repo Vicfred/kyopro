@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/problemset/problem/1651/C
 // greedy, ad-hoc
 #include <algorithm>
