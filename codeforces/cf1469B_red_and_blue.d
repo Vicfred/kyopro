@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1469/problem/B
 // greedy, cumulative sum
 import std.algorithm;
