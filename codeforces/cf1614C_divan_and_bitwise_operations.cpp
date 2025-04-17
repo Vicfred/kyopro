@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/problemset/problem/1614/C
 // bitwise operations, math
 #include <iostream>
