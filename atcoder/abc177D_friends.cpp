@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc177/tasks/abc177_d
 // union find, data structures
 #include <bits/stdc++.h>
