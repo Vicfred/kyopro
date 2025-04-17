@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc042/tasks/abc042_a
 # sorting
 import algorithm, strutils, sequtils
