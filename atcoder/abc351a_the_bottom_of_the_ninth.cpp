@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc351/tasks/abc351_a
 // math
 #include <iostream>
