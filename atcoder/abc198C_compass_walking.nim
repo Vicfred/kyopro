@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc198/tasks/abc198_c
 # math, geometry
 import sequtils, strutils
