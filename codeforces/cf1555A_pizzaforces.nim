@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://codeforces.com/contest/1555/problem/A
 # basic math
 import sequtils, strutils
