@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc156/tasks/abc156_d
 # math, binomial coefficients
 def binpow(a, b, m):
