@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc244/tasks/abc244_d
 # implementation
 import sequtils, strutils, tables, algorithm
