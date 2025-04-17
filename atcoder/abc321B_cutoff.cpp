@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc321/tasks/abc321_b
 // implementation, brute force
 #include <algorithm>
