@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1538/problem/C
 // data structures, basic math
 import std.algorithm;
