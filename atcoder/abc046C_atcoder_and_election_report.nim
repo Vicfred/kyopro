@@ -1,4 +1,4 @@
-# uninhm & Vicfred
+# uninhm &(* vicfred
 # https://atcoder.jp/contests/abc046/tasks/arc062_a
 # math
 
