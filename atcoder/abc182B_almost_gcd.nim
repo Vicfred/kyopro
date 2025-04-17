@@ -1,4 +1,4 @@
-# Vicfred & unaihernandez22
+# vicfred & unaihernandez22
 # https://atcoder.jp/contests/abc182/tasks/abc182_b
 # math, data structures
 import strutils, sequtils, math, tables
