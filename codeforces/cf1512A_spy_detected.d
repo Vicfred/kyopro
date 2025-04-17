@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1512/problem/A
 // simulation, implementation
 import std.algorithm;
