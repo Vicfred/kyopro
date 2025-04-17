@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/group/WWgO08JwTh/contest/369508/problem/D
 // dynamic programming, classical
 #include <iostream>
