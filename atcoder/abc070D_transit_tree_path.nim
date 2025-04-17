@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc070/tasks/abc070_d
 # dijkstra, dfs, graph
 import strutils, sequtils, heapqueue
