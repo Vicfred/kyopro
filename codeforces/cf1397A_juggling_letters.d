@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1397/problem/A
 // simulation, math
 import std.conv;
