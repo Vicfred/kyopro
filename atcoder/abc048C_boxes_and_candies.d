@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc048/tasks/arc064_a
 // greedy, sliding window
 import std.algorithm;
