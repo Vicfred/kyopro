@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc211/tasks/abc211_c
 # dynamic programming
 
