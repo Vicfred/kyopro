@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/problemset/problem/277/A
 // dsu, dfs
 #include <iostream>
