@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc119/tasks/abc119_d
 // binary search
 #include <algorithm>
