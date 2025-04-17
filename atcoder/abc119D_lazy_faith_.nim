@@ -17,7 +17,7 @@ for _ in 1 .. q:
   shrine = s.lowerBound(x, cmp[int])
   temple = t.lowerBound(x, cmp[int])
   ans = int.high
-  # --- Vicfred ---------------------------------
+  # --- vicfred ---------------------------------
   for j in 0 .. 1:
     for k in 0 .. 1:
       var
