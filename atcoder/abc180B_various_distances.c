@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc180/tasks/abc180_b
 // math
 #include <stdio.h>
