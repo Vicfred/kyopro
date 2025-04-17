@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc187/tasks/abc187_c
 // data structures, red black tree, basic string manipulation, strings
 import std.algorithm;
