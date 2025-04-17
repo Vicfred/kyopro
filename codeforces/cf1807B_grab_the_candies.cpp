@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1807/problem/B
 // greedy
 #include <iostream>
