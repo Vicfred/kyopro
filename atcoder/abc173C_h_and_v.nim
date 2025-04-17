@@ -1,4 +1,4 @@
-# uninhm and Vicfred
+# uninhm and(* vicfred
 # https://atcoder.jp/contests/abc173/tasks/abc173_c
 # implementation, brute force
 
