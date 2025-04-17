@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://open.kattis.com/problems/grandpabernie
 // data structures, implementation
 #include <algorithm>
