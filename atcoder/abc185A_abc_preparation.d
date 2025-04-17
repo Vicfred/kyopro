@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc185/tasks/abc185_a
 // implementation
 import std.algorithm;
