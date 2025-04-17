@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc171/tasks/abc171_d
 # maps, data structures, counting, bucket
 import strutils, sequtils, tables, math
