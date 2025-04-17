@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc320/tasks/abc320_a
 # implementation
 ins = map(int, input().split())
