@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://adventofcode.com/2021/day/3
 import bitops
 let f = open("input")
