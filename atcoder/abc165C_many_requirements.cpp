@@ -1,4 +1,4 @@
-// Vicfred & uninhm
+// vicfred & uninhm
 // https://atcoder.jp/contests/abc165/tasks/abc165_c
 // dfs, brute force
 #include <algorithm>
