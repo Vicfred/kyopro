@@ -1,4 +1,4 @@
-// uninhm & Vicfred
+// uninhm &(* vicfred
 // https://atcoder.jp/contests/abc162/tasks/abc162_e
 // math
 import std.algorithm;
