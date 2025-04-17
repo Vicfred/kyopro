@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1398/problem/D
 // dynamic programming
 import std.algorithm;
