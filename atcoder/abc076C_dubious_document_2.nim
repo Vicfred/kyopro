@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc076/tasks/abc076_c
 # string manipulation
 import strutils
