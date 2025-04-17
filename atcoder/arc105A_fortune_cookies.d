@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/arc105/tasks/arc105_a
 // greedy
 import std.algorithm;
