@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://open.kattis.com/problems/iwannabe
 // sorting, data structures, implementation
 #include <algorithm>
