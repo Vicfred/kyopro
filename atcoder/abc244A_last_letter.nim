@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc244/tasks/abc244_a
 # implementation
 import strutils
