@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://adventofcode.com/2022/day/6
 // implementation
 #include <fstream>
