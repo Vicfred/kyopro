@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/problemset/problem/1348/B
 // two pointers, greedy
 
