@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc076/tasks/abc076_b
 # simulation, dfs
 import strutils
