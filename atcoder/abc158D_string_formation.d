@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc158/tasks/abc158_d
 // deque
 import std.algorithm;
