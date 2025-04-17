@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc048/tasks/abc048_a
 # simulation
 ins = input().split()
