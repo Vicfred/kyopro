@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1395/problem/B
 // implementation
 import std.stdio;
