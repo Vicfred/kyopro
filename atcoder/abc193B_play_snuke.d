@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc193/tasks/abc193_b
 // data structures, sorting, greedy
 import std.algorithm;
