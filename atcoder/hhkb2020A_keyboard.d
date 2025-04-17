@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/hhkb2020/tasks/hhkb2020_a
 // string manipulation
 import std.stdio;
