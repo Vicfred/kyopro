@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc130/tasks/abc130_d
 // two pointers, sliding window
 import std.algorithm;
