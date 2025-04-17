@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc062/tasks/abc062_a
 # implementation, map
 import strutils, sequtils, tables
