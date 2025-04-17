@@ -1,4 +1,4 @@
--- Vicfred
+-- vicfred
 -- https://atcoder.jp/contests/abc396/tasks/abc396_a
 -- implementation
 main :: IO ()
