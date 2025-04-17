@@ -1,4 +1,4 @@
-(*(* vicfred
+(* vicfred
  * https://atcoder.jp/contests/abc146/tasks/abc146_b
  * string manipulation
  * *)
