@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc147/tasks/abc147_b
 // string manipulation
 use std::io;
