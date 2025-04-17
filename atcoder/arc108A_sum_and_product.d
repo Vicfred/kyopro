@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/arc108/tasks/arc108_a
 // math, prime numbers, factorization
 import std.stdio;
