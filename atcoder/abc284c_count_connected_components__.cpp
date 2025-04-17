@@ -1,6 +1,6 @@
 // vicfred
 // https://atcoder.jp/contests/abc284/tasks/abc284_c
-// connected components, dfs
+// connected components, bfs
 #include <cstdint>
 #include <iostream>
 #include <queue>
