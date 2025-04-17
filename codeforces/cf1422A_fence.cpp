@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1422/problem/A
 // math
 #include <algorithm>
