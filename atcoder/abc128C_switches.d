@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc128/tasks/abc128_c
 // bitmask, brute force, implementation
 import std.algorithm;
