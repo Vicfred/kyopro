@@ -1,4 +1,4 @@
--- Vicfred
+-- vicfred
 -- https://atcoder.jp/contests/abc082/tasks/abc082_b
 -- greedy, sorting
 
