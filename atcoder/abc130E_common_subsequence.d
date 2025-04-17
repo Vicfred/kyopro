@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc130/tasks/abc130_e
 // math, combinatorics, counting
 import std.algorithm;
