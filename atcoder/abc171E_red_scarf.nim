@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc171/tasks/abc171_e
 # bitwise
 import strutils, sequtils, sugar
