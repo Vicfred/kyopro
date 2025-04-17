@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc177/tasks/abc177_e
 // math
 import std.stdio, std.algorithm, std.range, std.functional;
