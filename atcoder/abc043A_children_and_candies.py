@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc043/tasks/abc043_a
 # simulation
 n = int(input())
