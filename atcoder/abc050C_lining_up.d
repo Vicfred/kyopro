@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc050/tasks/arc066_a
 // math, combinatorics
 import std.algorithm;
