@@ -1,4 +1,4 @@
-(*(* vicfred
+(* vicfred
  * https://atcoder.jp/contests/abc133/tasks/abc133_b
  * math, implementation
  * *)
