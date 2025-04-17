@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc138/tasks/abc138_c
 // sorting, greedy
 import std.algorithm;
