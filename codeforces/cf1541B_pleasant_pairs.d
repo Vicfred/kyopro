@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1541/problem/B
 // sorting, math
 import std.algorithm;
