@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/arc104/tasks/arc104_a
 # math
 import strutils, sequtils
