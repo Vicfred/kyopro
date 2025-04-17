@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codingcompetitions.withgoogle.com/codejam/round/000000000087711b/0000000000acd59d
 // greedy
 #include <deque>
