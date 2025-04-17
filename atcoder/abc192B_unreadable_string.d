@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc192/tasks/abc192_b
 // basic string manipulation
 import std.ascii;
