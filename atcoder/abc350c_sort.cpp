@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc350/tasks/abc350_c
 // math, data structures
 #include <iostream>
