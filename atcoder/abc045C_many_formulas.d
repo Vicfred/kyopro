@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc045/tasks/arc061_a
 // brute force, bitmask
 import std.algorithm;
