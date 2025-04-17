@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1722/problem/A
 // brute force, implementation
 #include <algorithm>
