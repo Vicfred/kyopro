@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1422/problem/D
 // dijkstra, priority queue
 #include <algorithm>
