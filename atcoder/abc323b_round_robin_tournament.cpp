@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc323/tasks/abc323_b
 // data structures
 #include <cwchar>
