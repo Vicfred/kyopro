@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://adventofcode.com/2021/day/8
 # string manipulation, implementation
 import strutils
