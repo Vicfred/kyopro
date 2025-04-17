@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc072/tasks/arc082_a
 # greedy, bucket sort
 class Counter(dict):
