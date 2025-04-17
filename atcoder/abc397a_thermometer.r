@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc397/tasks/abc397_a
 # implementation
 
