@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc199/tasks/abc199_a
 # implementation
 import sequtils, strutils
