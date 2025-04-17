@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1395/problem/C
 // bit manipulation
 import std.algorithm;
