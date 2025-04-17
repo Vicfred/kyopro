@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc074/tasks/arc083_a
 # brute force
 import strutils, sequtils
