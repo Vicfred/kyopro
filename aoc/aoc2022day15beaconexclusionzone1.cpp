@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://adventofcode.com/2022/day/15
 //
 #include <cstdio>
