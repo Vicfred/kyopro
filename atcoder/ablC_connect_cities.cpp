@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abl/tasks/abl_c
 // graph, dsu, dfs, bfs
 #include <iostream>
