@@ -1,4 +1,4 @@
-// Vicfred & uninhm
+// vicfred & uninhm
 // https://codeforces.com/contest/1426/problem/B
 // greedy
 
