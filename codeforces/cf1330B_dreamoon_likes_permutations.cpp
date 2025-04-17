@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/problemset/problem/1330/B
 // greedy, implementation
 
