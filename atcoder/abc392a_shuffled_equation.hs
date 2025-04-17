@@ -1,4 +1,4 @@
--- Vicfred
+-- vicfred
 -- https://atcoder.jp/contests/abc392/tasks/abc392_a
 -- implementation
 import Data.Bool
