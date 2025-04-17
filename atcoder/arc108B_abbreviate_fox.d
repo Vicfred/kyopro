@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/arc108/tasks/arc108_b
 // string manipulation, greedy
 import std.stdio;
