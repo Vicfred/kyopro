@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/problemset/problem/1579/D
 // greedy, data structures
 #include <iostream>
