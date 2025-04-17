@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc194/tasks/abc194_b
 // brute force
 import std.algorithm;
