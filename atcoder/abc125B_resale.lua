@@ -1,4 +1,4 @@
--- Vicfred
+-- vicfred
 -- https://atcoder.jp/contests/abc125/tasks/abc125_b
 -- greedy
 n = io.read("*n")
