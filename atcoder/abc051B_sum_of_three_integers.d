@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc051/tasks/abc051_b
 // simulation
 import std.stdio;
