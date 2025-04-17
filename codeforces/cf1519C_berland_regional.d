@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1519/problem/C
 // data structures, sorting
 import std.algorithm;
