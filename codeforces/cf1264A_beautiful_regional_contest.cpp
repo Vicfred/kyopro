@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/problemset/problem/1264/A
 // greedy, data structures
 #include <functional>
