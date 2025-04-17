@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://www.spoj.com/problems/ETF/
 # math
 import strutils, sequtils, math
