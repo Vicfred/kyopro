@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc301/tasks/abc301_b
 // implementation
 #include <iostream>
