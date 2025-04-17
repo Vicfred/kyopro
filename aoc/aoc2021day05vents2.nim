@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://adventofcode.com/2021/day/5
 #
 # comment: intersection points are preserved under
