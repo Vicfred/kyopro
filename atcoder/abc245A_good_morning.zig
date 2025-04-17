@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc245/tasks/abc245_a
 // implementation
 const std = @import("std");
