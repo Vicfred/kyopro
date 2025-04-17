@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codingcompetitions.withgoogle.com/codejam/round/0000000000876ff1/0000000000a45ef7#problem
 // brute force
 #include <algorithm>
