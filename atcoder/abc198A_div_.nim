@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc198/tasks/abc198_a
 # combinatorics, math, brute force
 import strutils
