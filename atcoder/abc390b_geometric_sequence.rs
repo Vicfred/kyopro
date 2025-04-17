@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc390/tasks/abc390_b
 // math, implementation
 use std::io;
