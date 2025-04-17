@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc072/tasks/abc072_b
 # string manipulation, simulation
 s = input()
