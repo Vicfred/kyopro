@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc157/tasks/abc157_a
 // implementation
 use std::io;
