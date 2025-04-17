@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://open.kattis.com/problems/stockprices
 // priority queue
 #include <algorithm>
