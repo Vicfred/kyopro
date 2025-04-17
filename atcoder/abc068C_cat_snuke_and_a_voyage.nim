@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc068/tasks/arc079_a
 # graph, dfs
 import strutils, sequtils, algorithm, tables, sets
