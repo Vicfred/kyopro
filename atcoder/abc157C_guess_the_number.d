@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc157/tasks/abc157_c
 // implementation
 import std.stdio;
