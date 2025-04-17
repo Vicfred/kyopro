@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1437/problem/C
 // 
 import std.algorithm;
