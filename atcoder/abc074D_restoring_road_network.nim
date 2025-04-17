@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abc074/tasks/arc083_b
 # graph, floyd warshall
 import strutils, sequtils, math
