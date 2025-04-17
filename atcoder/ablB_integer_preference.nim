@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://atcoder.jp/contests/abl/tasks/abl_b
 # math
 import strutils, sequtils, algorithm
