@@ -1,4 +1,4 @@
-// Solution by Vicfred, implementation by uninhm
+// Solution by(* vicfred, implementation by uninhm
 // https://atcoder.jp/contests/abc184/tasks/abc184_c
 // greedy
 
