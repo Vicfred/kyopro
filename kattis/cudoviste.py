@@ -1,4 +1,4 @@
-# Vicfred
+# vicfred
 # https://open.kattis.com/problems/cudoviste
 # brute force
 R, C = list(map(int, input().split()))
