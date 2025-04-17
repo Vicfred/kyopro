@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://codeforces.com/contest/1405/problem/D
 // dfs, graph, bfs, tree
 import std.algorithm;
