@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc047/tasks/arc063_a
 // greedy
 import std.stdio;
