@@ -1,6 +1,6 @@
 -- uninhm
 -- https://atcoder.jp/contests/abc265/tasks/abc265_d
--- binary search, accumulation
+-- binary search, cumulative sum
 
 import Data.Array.IArray
 import Data.Maybe (isJust)

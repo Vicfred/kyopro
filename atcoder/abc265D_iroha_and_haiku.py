@@ -1,6 +1,6 @@
 # uninhm
 # https://atcoder.jp/contests/abc265/tasks/abc265_d
-# binary search, accumulation
+# binary search, cumulative sum
 
 # The idea:
 # Once you have the w, you can binary search your way back to x
