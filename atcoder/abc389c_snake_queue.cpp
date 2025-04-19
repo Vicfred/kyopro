@@ -1,6 +1,6 @@
 // vicfred
 // https://atcoder.jp/contests/abc389/tasks/abc389_c
-// cumulative sums
+// cumulative sum
 #include <cstdint>
 #include <iostream>
 #include <vector>
