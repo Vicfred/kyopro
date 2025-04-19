@@ -1,6 +1,6 @@
 // vicfred
 // https://atcoder.jp/contests/abc386/tasks/abc386_c
-// string processing, edit distance, levenshtein, string
+// string manipulation, edit distance, levenshtein, string
 #include <algorithm>
 #include <cstdint>
 #include <iostream>
