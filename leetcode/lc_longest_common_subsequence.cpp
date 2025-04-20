@@ -1,6 +1,6 @@
 // vicfred
 // https://leetcode.com/problems/longest-common-subsequence/
-// dynamic programming, string manipulation
+// dynamic programming, string manipulation, LCS
 #include <cstdint>
 #include <string>
 #include <vector>
