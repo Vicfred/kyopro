@@ -9,7 +9,7 @@
 using namespace std;
 
 int64_t edit_distance(const string &s, const string &t, const int64_t n,
-                      const int64_t m, vector<vector<int64_t>>& memo) {
+                      const int64_t m, vector<vector<int64_t>> &memo) {
   if (n == 0) {
     return m;
   }
