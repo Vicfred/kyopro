@@ -16,6 +16,7 @@
 !aoc/
 !codejam/
 !projecteuler/
+!geekforgeeks/
 
 # programming languages
 !*.cpp
