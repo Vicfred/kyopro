@@ -57,3 +57,6 @@
 
 # whitelist the license
 !LICENSE
+
+# whitelist the readme
+!README.md
