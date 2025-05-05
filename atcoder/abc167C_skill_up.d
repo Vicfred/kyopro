@@ -1,6 +1,6 @@
 // vicfred
 // https://atcoder.jp/contests/abc167/tasks/abc167_c
-// bitmasks
+// bitmask
 import std.algorithm;
 import std.array;
 import std.conv;
