@@ -1,6 +1,6 @@
 // vicfred
 // https://atcoder.jp/contests/abc405/tasks/abc405_c
-// cumulative sum
+// math
 #include <cstdint>
 #include <iostream>
 #include <vector>
@@ -14,13 +14,13 @@ int main() {
   for (int i = 0; i < n; ++i) {
     cin >> as[i];
   }
-  vector<int64_t> cumulative_sum(n + 1);
-  for (int i = 1; i <= n; ++i) {
-    cumulative_sum[i] = cumulative_sum[i - 1] + as[i - 1];
+  int64_t total_sum = 0LL;
+  for(int64_t i = 0; i < n; ++i) {
+    total_sum += as[i];
   }
-  int64_t ans = 0LL;
-  for (int i = 0; i < n; ++i) {
-    ans += cumulative_sum[i] * as[i];
+  int64_t sum_squares = 0LL;
+  for(int64_t i = 0; i < n; ++i) {
+    sum_squares += as[i]*as[i];
   }
-  cout << ans << endl;
+  cout << (int64_t)((total_sum*total_sum - sum_squares)/2LL) << endl;
 }
