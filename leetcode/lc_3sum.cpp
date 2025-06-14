@@ -1,3 +1,6 @@
+// vicfred
+// https://leetcode.com/problems/two-sum/
+// two pointers
 #include <algorithm>
 #include <iostream>
 #include <vector>
