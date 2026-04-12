@@ -1,4 +1,4 @@
-// Vicfred
+// vicfred
 // https://atcoder.jp/contests/abc453/tasks/abc453_a
 // string manipulation
 #include <iostream>
