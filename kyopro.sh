@@ -16,6 +16,14 @@ get_problem_name() {
   echo "$problem_name"
 }
 
+get_contest() {
+  echo ${1:0:6}
+}
+
+get_letter() {
+  echo ${1:6:1}
+}
+
 normalize() {
   # Normalization description:
   # Remove everything that is in parenthesis
@@ -31,27 +39,6 @@ normalize() {
   fi
 
   echo $normalized
-}
-
-lint() {
-  for file in $@; do
-    filename=$(basename "$file")
-    if [[ "$filename" =~ ^(a[br]c[0-9]{3})([a-fA-F])_(.+)\..+$ ]]; then
-      contest=${BASH_REMATCH[1]}
-      problem=${BASH_REMATCH[2]}
-      file_problem_name=$(echo ${BASH_REMATCH[3]} | sed 's/_\+$//')
-      problem_name=$(get_problem_name $contest $problem)
-      problem_name_normalized=$(normalize "$problem_name")
-
-      if [ "$problem_name_normalized" != "$file_problem_name" ]; then
-        echo "WARNING: Problem name in filename doesn't match in '$file'."
-        echo "Expected: $problem_name_normalized"
-        echo "Found: $file_problem_name"
-      fi
-    else
-      echo "ERROR: File '$filename' doesn't follow the naming conventions."
-    fi
-  done
 }
 
 comment() {
@@ -84,6 +71,46 @@ comment() {
   echo $start "$line"
 }
 
+# -----------------------------------------------------------------
+# ----------- MODES -----------------------------------------------
+# -----------------------------------------------------------------
+
+lint() {
+  for file in $@; do
+    filename=$(basename "$file")
+    if [[ "$filename" =~ ^(a[br]c[0-9]{3}[a-fA-F])_(.+)\.(.+)$ ]]; then
+      problem=$(echo ${BASH_REMATCH[1]} | lower)
+      contest=$(get_contest $problem)
+      letter=$(get_letter $problem)
+
+      file_problem_name=$(echo ${BASH_REMATCH[2]} | sed 's/_\+$//')
+      lang=${BASH_REMATCH[3]}
+
+      problem_name=$(get_problem_name $contest $letter)
+      problem_name_normalized=$(normalize "$problem_name")
+
+      if [ "$problem_name_normalized" != "$file_problem_name" ]; then
+        echo "WARNING: Problem name in filename doesn't match in '$file'."
+        echo "Expected: $problem_name_normalized"
+        echo "Found: $file_problem_name"
+      fi
+
+      url="https://atcoder.jp/contests/$contest/tasks/${contest}_$letter"
+      file_url=$(cat "$file" | tail +2 | head -n1)
+
+      expected="$(comment $lang $url)"
+
+      if [ "$expected" != "$file_url" ]; then
+        echo "WARNING: URL comment doesn't match in '$file'."
+        echo "Expected: $expected"
+        echo "Found: $file_url"
+      fi
+    else
+      echo "ERROR: File '$filename' doesn't follow the naming conventions."
+    fi
+  done
+}
+
 create() {
   while [ "$#" -gt 2 ]; do
     case $1 in
@@ -99,9 +126,9 @@ create() {
     shift
   done
 
-  lang=$1
-  contest=$(echo ${2:0:6} | lower)
-  problem=$(echo ${2:6:1} | lower)
+  contest=$(get_contest $1 | lower)
+  problem=$(get_letter $1 | lower)
+  lang=$2
 
   problem_name=$(get_problem_name $contest $problem)
   problem_name_normalized=$(normalize "$problem_name")
@@ -119,17 +146,6 @@ create() {
   comment $lang >> $file
 }
 
-header() {
-  echo "ERROR: Unimplemented"
-  exit 1
-
-  user=$1
-  shift
-  for file in $@; do
-    echo $file
-  done
-}
-
 help() {
   cat << EOM
 Helper tool for kyopro. Currently only supports atcoder problems.
@@ -138,11 +154,10 @@ USAGE: ./kyopro.sh mode [opt] [arguments]
 
 mode:
   l/lint [files]                     verifies if the files follow the repo's conventions
-  h/header <user> [files]            adds the usual headers to the files
-  c/create [opt] <lang> <problem>    creates the file corresponding to the problem.
-                                      <problem> should follow the format abcXXXx.
-                                      <lang>    should correspond to the file extension.
-  help                               shows this message
+  c/create [opt] <problem> <lang>    creates the file corresponding to the problem.
+                                       <problem> should follow the format abcXXXx.
+                                       <lang>    should correspond to the file extension.
+  h/help                             shows this message
 
 opt:
   -u/--user <username>               add the username
@@ -154,15 +169,11 @@ case "$1" in
     shift
     lint $@
     ;;
-  h|header)
-    shift
-    header $@
-    ;;
   c|create)
     shift
     create $@
     ;;
-  help)
+  h|help)
     help
     exit
     ;;
