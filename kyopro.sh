@@ -12,7 +12,7 @@ get_problem_name() {
   contest=$(echo $1 | lower)
   problem=$(echo $2 | lower)
   n=$(($(ord $problem) - $(ord a) + 1)) # problem number from 1 to 6 (A to F respectively)
-  problem_name=$(curl -s "https://atcoder.jp/contests/$contest/tasks" | xmllint --html --xpath '//table/tbody/tr/td/a/text()' - | tail +$((2*n)) | head -n1)
+  problem_name=$(curl -s "https://atcoder.jp/contests/$contest/tasks" | xmllint --html --xpath '//table/tbody/tr/td/a/text()' - 2> /dev/null | tail +$((2*n)) | head -n1)
   echo "$problem_name"
 }
 
@@ -118,6 +118,9 @@ create() {
         user=$2
         shift
         ;;
+      -e|--edit)
+        edit=y
+        ;;
       *)
         echo ERROR: Unrecognized option: $1
         exit 1
@@ -144,6 +147,16 @@ create() {
   comment $lang $user >> $file
   comment $lang $url >> $file
   comment $lang >> $file
+
+  echo "File $file created."
+
+  if [ -n "$edit" ]; then
+    if [ -n "$EDITOR" ]; then
+      $EDITOR "$file"
+    else
+      echo "EDITOR variable not set."
+    fi
+  fi
 }
 
 help() {
@@ -161,6 +174,7 @@ mode:
 
 opt:
   -u/--user <username>               add the username
+  -e/--edit                          open file in editor
 EOM
 }
 
