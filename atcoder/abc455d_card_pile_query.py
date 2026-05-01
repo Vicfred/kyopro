@@ -1,5 +1,5 @@
 # uninhm
-# https://atcoder.jp/contests/abc454/tasks/abc454_d
+# https://atcoder.jp/contests/abc455/tasks/abc455_d
 # simulation, linked list
 
 n, q = map(int, input().split())
