@@ -1,6 +1,6 @@
 // vicfred
 // https://atcoder.jp/contests/adt_hard_20240523_2/tasks/abc321_d
-// sorting, binary search, prefix sums
+// sorting, binary search, prefix sums, case analysis
 #include <algorithm>
 #include <cstdint>
 #include <iostream>
