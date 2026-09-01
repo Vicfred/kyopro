@@ -1,7 +1,7 @@
 // vicfred
 // https://atcoder.jp/contests/adt_easy_20260813_2/tasks/abc409_c
 // prefix sums, modular arithmetic, frequency counting
-// combinatorics, geometry, data structures, sets
+// combinatorics, geometry, data structures, sets, math
 #include <cstdint>
 #include <iostream>
 #include <map>
