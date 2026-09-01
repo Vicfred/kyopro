@@ -1,6 +1,6 @@
 // vicfred
 // https://atcoder.jp/contests/code-festival-2017-qualc/tasks/code_festival_2017_qualc_b
-// brute force, BFS, enumeration, parity
+// brute force, BFS, enumeration
 
 #include <cstdint>
 #include <iostream>
