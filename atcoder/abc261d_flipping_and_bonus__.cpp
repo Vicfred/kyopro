@@ -50,6 +50,6 @@ int main() {
   }
 
   // The optimal sequence may end with any streak.
-  cout << *max_element(dp[N].begin(), dp[N].end()) << endl;
+  cout << ranges::max(dp[N]) << endl;
   return 0;
 }
