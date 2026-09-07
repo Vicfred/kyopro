@@ -1,6 +1,6 @@
 // vicfred
 // https://atcoder.jp/contests/abc418/tasks/abc418_d
-// dynamic programming
+// dynamic programming, constant memory
 #include <array>
 #include <cstdint>
 #include <iostream>
